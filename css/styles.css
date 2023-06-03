@@ -430,6 +430,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 .name-soc-item {
   width: 40px;
   height: 40px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .name-soc-link {
   width: 100%;
@@ -442,7 +443,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
  
   gap: 24px
 ;
-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 
 }
 
