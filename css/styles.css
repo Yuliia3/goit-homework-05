@@ -149,6 +149,7 @@ margin-bottom: 16px;
 
 
 
+
 .link-menu:hover {
   color: var(--pressed-state);
 }
@@ -213,7 +214,7 @@ margin-bottom: 16px;
   height: 56px;
   border: none;
  
-transition: backround-color var(--pressed-state);
+transition: background-color var(--pressed-state);
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -471,7 +472,7 @@ padding-bottom: 120px;
   justify-content: center;
   border: 1px solid #8e8f99;
   border-radius: 4px;
-  transition: border var(--pressed-state), color var(--pressed-state), ;
+  transition: border-color var(--pressed-state), color var(--pressed-state), ;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   
@@ -529,9 +530,9 @@ padding-bottom: 120px;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: backround-color var(--success);
-transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250 cubic-bezier(0.4, 0, 0.2, 1);
+
+
 }
 .footer-soc-link:hover { background-color:#31d0aa;
 
@@ -584,9 +585,8 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
   padding: 12px 24px;
   border: 1px solid var(--acent-color);
-  transition: color var(--header-backround), background-color var(--pressed-state);
-transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+   border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .main-menu-one:hover {
   border-color: transparent;
@@ -606,9 +606,8 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
   overflow: hidden;
  
-  transition: box-shadow;
-transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250 cubic-bezier(0.4, 0, 0.2, 1);
+
   
 }
 .main-img:hover .paragraf-text {
